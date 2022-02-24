@@ -1,0 +1,5 @@
+ethers.utils.parseEther("0.0")
+c.address
+const c = await L.deploy()
+const l = L.deploy()
+const L = await ethers.getContractFactory("panSwap")
