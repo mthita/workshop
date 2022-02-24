@@ -29,24 +29,29 @@ const dai_token = new ethers.Contract(DAI, IERC20_abi, signer);
 const weth_token = new ethers.Contract(WETH, IERC20_abi, signer);
 const router = new ethers.Contract(r, router_abi, signer);
 
-const amount = ethers.utils.parseEther("2.0"); //WETH
-const zero = ethers.utils.parseEther("0.0"); //zero
-const lend = ethers.utils.parseEther("0.01"); //the token0 fee
+const amount = ethers.utils.parseEther("5.0"); //DAI
+const lend = ethers.utils.parseEther("0.1"); //the token0 fee
 
 const main = async () => {
   const gas_price = await provider.getGasPrice();
 
-  const L = await ethers.getContractFactory("ok");
+  const L = await ethers.getContractFactory("testOne");
   const l = await L.deploy();
   await l.deployed();
 
   console.log(`deployed at ${l.address}`);
 
+  console.log(`need to fund the program`);
+  const funding = await dai_token.transfer(l.address, lend);
+  if (funding) {
+    console.log(`funding OK ${await dai_token.balanceOf(l.address)} DAI`);
+  }
+
   console.log(" 🤑 🔥 🔥 🔥 🔥 🔥");
-  console.log("follow the 🐇 & make the flash swap [WETH/DAI] 🚀");
+  console.log("follow the 🐇 & make the flash swap 🚀");
 
   try {
-    const tx = await l.start(DAI, WETH, zero, amount, {
+    const tx = await l.testLoan(WETH, DAI, 0, amount, {
       gasLimit: 300000,
       gasPrice: gas_price,
     });

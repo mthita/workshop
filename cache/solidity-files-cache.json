@@ -1,78 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@uniswap/v2-periphery/contracts/libraries/UniswapV2Library.sol": {
-      "lastModificationDate": 1643801967834,
-      "contentHash": "b545c97573c8aa5876a4f9e25f28a732",
-      "sourceName": "@uniswap/v2-periphery/contracts/libraries/UniswapV2Library.sol",
-      "solcConfig": {
-        "version": "0.6.6",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
-        "./SafeMath.sol"
-      ],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "UniswapV2Library"
-      ]
-    },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@uniswap/v2-periphery/contracts/libraries/SafeMath.sol": {
-      "lastModificationDate": 1643801967834,
-      "contentHash": "9f77127a0e2c55c2058453327e84bde3",
-      "sourceName": "@uniswap/v2-periphery/contracts/libraries/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.6.6",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "=0.6.6"
-      ],
-      "artifacts": [
-        "SafeMath"
-      ]
-    },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/contracts/uniFlashloan.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/contracts/uniFlashloan.sol": {
       "lastModificationDate": 1645477260698,
       "contentHash": "21d36979095266e1b07f0e2bf2939e9f",
       "sourceName": "contracts/uniFlashloan.sol",
@@ -112,7 +41,78 @@
         "ok"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/contracts/AvLoaner.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@uniswap/v2-periphery/contracts/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1643801967834,
+      "contentHash": "b545c97573c8aa5876a4f9e25f28a732",
+      "sourceName": "@uniswap/v2-periphery/contracts/libraries/UniswapV2Library.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "UniswapV2Library"
+      ]
+    },
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@uniswap/v2-periphery/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1643801967834,
+      "contentHash": "9f77127a0e2c55c2058453327e84bde3",
+      "sourceName": "@uniswap/v2-periphery/contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.6"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/mthita/proj/smart_contracts/workshop/contracts/AvLoaner.sol": {
       "lastModificationDate": 1643554056829,
       "contentHash": "b91cc0a7724c807631fd15833657013a",
       "sourceName": "contracts/AvLoaner.sol",
@@ -150,7 +150,7 @@
         "avLoaner"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/aave/V2/contracts/FlashLoanReceiverBase.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/aave/V2/contracts/FlashLoanReceiverBase.sol": {
       "lastModificationDate": 1643801570972,
       "contentHash": "f3319e1d84dce4d9427f0f4c80c086c5",
       "sourceName": "aave/V2/contracts/FlashLoanReceiverBase.sol",
@@ -187,7 +187,7 @@
         "FlashLoanReceiverBase"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/aave/V2/contracts/Interfaces.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/aave/V2/contracts/Interfaces.sol": {
       "lastModificationDate": 1643801570983,
       "contentHash": "2855bb824ad351e969072b849221ea76",
       "sourceName": "aave/V2/contracts/Interfaces.sol",
@@ -226,7 +226,7 @@
         "ILendingPoolAddressesProvider"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/aave/V2/contracts/Libraries.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/aave/V2/contracts/Libraries.sol": {
       "lastModificationDate": 1643801571009,
       "contentHash": "3a6176440df6a7b4ca704395b9d77735",
       "sourceName": "aave/V2/contracts/Libraries.sol",
@@ -265,9 +265,48 @@
         "SafeMath"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/contracts/testUni.sol": {
-      "lastModificationDate": 1645130970069,
-      "contentHash": "43389bf0e2695d8c6b372f92b656d7e6",
+    "/Users/mthita/proj/smart_contracts/workshop/contracts/pancake.sol": {
+      "lastModificationDate": 1645140427412,
+      "contentHash": "816a3837c72062e9c790ba689737b8dd",
+      "sourceName": "contracts/pancake.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@uniswap/v2-core/contracts/interfaces/IERC20.sol",
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.6 <0.8.0"
+      ],
+      "artifacts": [
+        "panSwap"
+      ]
+    },
+    "/Users/mthita/proj/smart_contracts/workshop/contracts/testUni.sol": {
+      "lastModificationDate": 1645742709930,
+      "contentHash": "11787d455eb3f36c0f085f6696b6ef49",
       "sourceName": "contracts/testUni.sol",
       "solcConfig": {
         "version": "0.6.12",
@@ -301,10 +340,10 @@
         ">=0.6.6 <0.8.0"
       ],
       "artifacts": [
-        "testFlashloan"
+        "testOne"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/contracts/Guildbox.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/contracts/Guildbox.sol": {
       "lastModificationDate": 1637364196451,
       "contentHash": "891681e82389cc4c22ccb6f0e9613f38",
       "sourceName": "contracts/Guildbox.sol",
@@ -343,7 +382,7 @@
         "Guildbox"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
       "lastModificationDate": 1643553915585,
       "contentHash": "2b16122c5f36625084a7f90f0780937b",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
@@ -379,7 +418,7 @@
         "ERC721URIStorage"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
       "lastModificationDate": 1643553915554,
       "contentHash": "8f1c15639d1801a8117bdc64882e710b",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
@@ -422,7 +461,7 @@
         "ERC721"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
       "lastModificationDate": 1643553915203,
       "contentHash": "86ddbfba30a7d811a86f54416c364be3",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
@@ -456,7 +495,7 @@
         "Counters"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1643553915630,
       "contentHash": "17d9f40220b0ab370db2c77e7c92c4ef",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
@@ -492,7 +531,7 @@
         "Ownable"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
       "lastModificationDate": 1643553915606,
       "contentHash": "93a5aa8a276e028a4f46f22b5d8f7bd3",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
@@ -528,7 +567,7 @@
         "IERC721"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
       "lastModificationDate": 1643553915615,
       "contentHash": "e6d69a0b5b95ac1112eb4746a2d66f3e",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
@@ -562,7 +601,7 @@
         "IERC721Receiver"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
       "lastModificationDate": 1643553915610,
       "contentHash": "75cedcb24edaec014d2071ed59a03ff3",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
@@ -598,7 +637,7 @@
         "IERC721Metadata"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol": {
       "lastModificationDate": 1643553915608,
       "contentHash": "f2ae82a09cc670ca19d644f60990b94d",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol",
@@ -634,7 +673,7 @@
         "IERC721Enumerable"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/utils/Address.sol": {
       "lastModificationDate": 1643553915019,
       "contentHash": "37103cdc416efc2601c6f6734044b559",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
@@ -668,7 +707,7 @@
         "Address"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/utils/Context.sol": {
       "lastModificationDate": 1643553915192,
       "contentHash": "bc047f55d4e6dcc5a9c7ee096f530312",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -702,7 +741,7 @@
         "Context"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
       "lastModificationDate": 1643553915644,
       "contentHash": "e575d915a7dbf0decd510699a7fd53dc",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
@@ -736,7 +775,7 @@
         "Strings"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
       "lastModificationDate": 1643553915459,
       "contentHash": "a9a5319dff9088c6ffe757ea1c2a6729",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
@@ -772,7 +811,7 @@
         "ERC165"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
       "lastModificationDate": 1643553915601,
       "contentHash": "9a04322bb8f6b8f2767d8358d1d2537b",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
@@ -806,7 +845,7 @@
         "IERC165"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol": {
       "lastModificationDate": 1643801967834,
       "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
       "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
@@ -842,7 +881,7 @@
         "IUniswapV2Router02"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol": {
       "lastModificationDate": 1643801967834,
       "contentHash": "95d8729b2c698dc663322167b3c085fe",
       "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
@@ -876,7 +915,7 @@
         "IUniswapV2Router01"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
       "lastModificationDate": 1643801959768,
       "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
       "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
@@ -910,7 +949,7 @@
         "IUniswapV2Pair"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
       "lastModificationDate": 1643801959767,
       "contentHash": "ec39b5372f4f4d52101b4da561e2aee6",
       "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
@@ -944,7 +983,7 @@
         "IUniswapV2Factory"
       ]
     },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/node_modules/@uniswap/v2-core/contracts/interfaces/IERC20.sol": {
+    "/Users/mthita/proj/smart_contracts/workshop/node_modules/@uniswap/v2-core/contracts/interfaces/IERC20.sol": {
       "lastModificationDate": 1643801959766,
       "contentHash": "3d2b948a9266ee66b6e739de97c7e6e9",
       "sourceName": "@uniswap/v2-core/contracts/interfaces/IERC20.sol",
@@ -976,45 +1015,6 @@
       ],
       "artifacts": [
         "IERC20"
-      ]
-    },
-    "/Users/mthita/proj/smart_contracts/hardhat_platform/contracts/pancake.sol": {
-      "lastModificationDate": 1645140427412,
-      "contentHash": "816a3837c72062e9c790ba689737b8dd",
-      "sourceName": "contracts/pancake.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@uniswap/v2-core/contracts/interfaces/IERC20.sol",
-        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
-        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
-        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.6 <0.8.0"
-      ],
-      "artifacts": [
-        "panSwap"
       ]
     }
   }
